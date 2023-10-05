@@ -9,6 +9,14 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+      
+      
+      - uses: trstringer/manual-approval@v1
+        with:
+      
+         approvers: SuzanneH7
+         minimum-approvals: 1
+         timeout-minutes: 60
+
       - name: Check out code
         uses: actions/checkout@v2
-      
