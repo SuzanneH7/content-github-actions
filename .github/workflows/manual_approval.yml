@@ -1,7 +1,7 @@
 name: manual approval step testing
 
-on: push
-
+on: 
+ workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
