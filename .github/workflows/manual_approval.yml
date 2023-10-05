@@ -1,0 +1,10 @@
+name: manual approval step testing
+
+on: push
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, world!
