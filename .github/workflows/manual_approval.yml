@@ -3,8 +3,12 @@ name: manual approval step testing
 on: push
 
 jobs:
-  init:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
+
+      - name: Check out code
+        uses: actions/checkout@v2
+      
