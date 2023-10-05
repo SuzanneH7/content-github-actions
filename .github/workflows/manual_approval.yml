@@ -16,7 +16,7 @@ jobs:
          secret: ${{ github.TOKEN }}
          approvers: SuzanneH7
          minimum-approvals: 1
-         timeout-minutes: 60
+         #timeout-minutes: 60
 
       - name: Check out code
         uses: actions/checkout@v2
